@@ -1,6 +1,5 @@
 # Django To-Do App
 
-
 A simple yet powerful **To-Do App** built with Django, featuring a **CI/CD pipeline** using Jenkins, GitHub, and Docker for automated deployment.
 
 ![To-Do App](https://raw.githubusercontent.com/shreys7/django-todo/develop/staticfiles/todoapp.png)
