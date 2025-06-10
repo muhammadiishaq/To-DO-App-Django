@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  todo-app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./volume/store_data/db.sqlite3:/data/db.sqlite3
+    command: >
+      sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
